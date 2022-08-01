@@ -1,0 +1,9 @@
+name: action-tester
+on: push
+jobs:
+  main:
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: kathywar/gh-action@main
+    
